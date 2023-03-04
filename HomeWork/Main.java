@@ -1,7 +1,8 @@
 public class Main{
 	public static void main(String[] args){
-		User user = new User("Bob");
+		Persister user = new Persister("Bob");
 		user.report();
 		user.save();
+
 	}
 }
